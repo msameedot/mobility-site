@@ -29,11 +29,10 @@ const ToTopButton: React.FC = () => {
 
   return (
     <Button
-      variant="primary"
       className={`to-top-button ${isVisible ? 'visible' : ''}`}
       onClick={scrollToTop}
     >
-      <ChevronUp size={50} />
+      <ChevronUp size={15} />
     </Button>
   );
 };
